@@ -1,4 +1,4 @@
-package br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct;
+package br.com.fatecararas.f290_si_ds2_suggestionbox_ct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,12 +1,12 @@
-package br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.services;
+package br.com.fatecararas.f290_si_ds2_suggestionbox_ct.services;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.model.entities.Categoria;
-import br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.repositories.CategoriaRepository;
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.model.entities.Categoria;
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.repositories.CategoriaRepository;
 
 @Service
 public class CategoriaService {

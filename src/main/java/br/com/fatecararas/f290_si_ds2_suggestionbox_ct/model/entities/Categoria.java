@@ -1,4 +1,4 @@
-package br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.model.entities;
+package br.com.fatecararas.f290_si_ds2_suggestionbox_ct.model.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

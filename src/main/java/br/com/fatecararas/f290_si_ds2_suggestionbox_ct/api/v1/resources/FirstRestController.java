@@ -1,4 +1,4 @@
-package br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.api.v1.resources;
+package br.com.fatecararas.f290_si_ds2_suggestionbox_ct.api.v1.resources;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.model.Suggestion;
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.model.Suggestion;
 
 @RestController
 @RequestMapping("/")

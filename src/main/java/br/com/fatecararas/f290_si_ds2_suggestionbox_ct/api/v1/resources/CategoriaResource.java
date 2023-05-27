@@ -1,4 +1,4 @@
-package br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.api.v1.resources;
+package br.com.fatecararas.f290_si_ds2_suggestionbox_ct.api.v1.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.model.entities.Categoria;
-import br.com.fatecararas.f290_dsm_tp2_suggestionbox_ct.services.CategoriaService;
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.model.entities.Categoria;
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.services.CategoriaService;
 
 @RestController
 @RequestMapping("/categoria")
