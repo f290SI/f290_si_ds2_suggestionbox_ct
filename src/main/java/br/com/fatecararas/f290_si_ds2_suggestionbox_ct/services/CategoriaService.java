@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
+import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.config.exceptions.ObjectNotFoundExceptionAPI;
 import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.model.entities.Categoria;
 import br.com.fatecararas.f290_si_ds2_suggestionbox_ct.repositories.CategoriaRepository;
 
@@ -32,9 +33,15 @@ public class CategoriaService {
     public Categoria buscarPorId(Integer id) {
         Optional<Categoria> optional = repository.findById(id);
         if (optional.isEmpty()) {
-            throw new RuntimeException("Categoria não encontrada. ID: " + id);
+            throw new ObjectNotFoundExceptionAPI("Categoria não encontrada. ID: " + id);
         }
         return optional.get();
+    }
+
+    public Categoria atualizar(Integer pId, Categoria pCategoria) {
+        Categoria categoria = buscarPorId(pId);
+        categoria.setDescricao(pCategoria.getDescricao());
+        return repository.save(categoria);
     }
 
 }
